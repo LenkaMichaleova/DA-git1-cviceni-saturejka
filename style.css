@@ -1,0 +1,55 @@
+p {
+    font: "Playfair Display Bold";
+}
+
+body {
+    background-color: #FFEFEF;
+}
+
+/* hlavička */
+header {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+header p {
+    margin: 0 32%;
+}
+
+/* MAIN */
+main {
+    background-color: #FFFFFF;
+    margin: 0 100px;
+    padding: 5%;
+}
+
+/* úvod */
+.uvod {
+    text-align: center;
+}
+
+.uvod p {
+    margin: 0 300px 5% 300px;
+}
+
+/* úvodní obrázky */
+.uvodni-obrazky {
+    margin-bottom: 5%;
+}
+.uvodni-obrazky img{
+    width: 30%;
+    margin: 5px;
+}
+
+/* část o nás */
+.o-nas .cast {
+    display: inline-block;
+    width: 45%;
+}
+
+/* patička */
+footer {
+    margin: 20px 320px;
+    text-align: center;
+    font-size: 15px;
+}
