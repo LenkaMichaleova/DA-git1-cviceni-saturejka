@@ -10,7 +10,7 @@ h1, h2 {
 }
 
 p {
-    font-family: 'Open Sans Light';
+    font-family: 'Open Sans', Light;
 }
 
 body {
@@ -48,10 +48,12 @@ main {
 
 /* úvodní obrázky */
 .uvodni-obrazky {
-    margin-bottom: 5%;
+    display: flex;
+    margin-bottom: 3%;
+    justify-content: space-between;
 }
 .uvodni-obrazky img{
-    width: 30%;
+    width: 31%;
     margin: 5px;
 }
 
@@ -66,7 +68,7 @@ main {
 .o-nas .cast{
     display: inline-flex;
     width: 45%;
-    margin: 2%;
+    margin: 0 2%;
 }
 
 
@@ -83,10 +85,16 @@ main {
     margin: 0 5%;
 }
 
-.detail-jidla .popis-jidla {
-    margin: 0 10%;
-    padding: 5%;
+.detail-jidla .vlevo{
+    text-align: right;
 }
+
+.popis-jidla {
+    margin: 0 2%;
+    padding: 0 5%;
+}
+
+
 
 .detail-jidla button{
     background-color: #FFEFEF;
@@ -107,5 +115,5 @@ main {
 footer {
     margin: 2% 20%;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
 }
